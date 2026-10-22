@@ -1,11 +1,9 @@
 import os
 import django
-
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'student_portal.settings')
 django.setup()
 """
 Streamlit version of the Student Information Platform.
-
 WHY THIS FILE EXISTS
     Streamlit is a Python framework that builds a web UI very quickly.
     It runs pure Python code.
