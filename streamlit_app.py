@@ -1,3 +1,8 @@
+import os
+import django
+
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'student_portal.settings')
+django.setup()
 """
 Streamlit version of the Student Information Platform.
 
