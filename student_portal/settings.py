@@ -24,3 +24,28 @@ SECRET_KEY = 'django-insecure-bwqeeicf@0)$)&r=yd0r0h4ie_y)x98v9d$d)is!v4!e&&_6jd
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+ALLOWED_HOSTS = ['*']
+
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'students',
+]
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
+
+LANGUAGE_CODE = 'en-us'
+TIME_ZONE = 'UTC'
+USE_I18N = True
+USE_TZ = True
+STATIC_URL = 'static/'
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
