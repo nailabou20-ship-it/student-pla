@@ -240,7 +240,7 @@ class Student(models.Model):
                 errors["email"] = ValidationError(
                     f"The email {self.email} is already registered.",
                     code="unique",
-                )
+               )
 
         if errors:
             raise ValidationError(errors)
