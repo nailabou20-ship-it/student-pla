@@ -1,0 +1,9 @@
+# The packages needed by the project.
+# Install them with:  pip install -r requirements.txt
+Django>=5.0,<6.0
+asgiref>=3.8
+sqlparse>=0.5
+tzdata>=2024.1
+
+# The same project can also be run as a Streamlit app.
+streamlit>=1.30

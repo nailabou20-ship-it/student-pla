@@ -1,0 +1,21 @@
+# The virtual environment (do not send it on the server)
+.venv/
+venv/
+env/
+
+# The Python cache files
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# The database (it is recreated by "python manage.py migrate")
+db.sqlite3
+db.sqlite3-journal
+
+# The static files collected for production
+staticfiles/
+
+# The files of the editor
+.vscode/
+.idea/
+*.log
